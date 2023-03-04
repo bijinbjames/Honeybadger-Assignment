@@ -16,19 +16,19 @@ Getting Started
 
 1.  Clone this repository to your local machine:
 
-shCopy code
+Copy code
 
 `git clone https://github.com/yourusername/slack-alert-web-endpoint.git`
 
 1.  Install the required Python packages using pip:
 
-shCopy code
+Copy code
 
 `pip install flask slack-sdk slack-bolt`
 
 1.  Set the environment variables for your Slack API token and channel ID:
 
-shCopy code
+Copy code
 
 `export SLACK_APP_TOKEN=your_app_token
 export SLACK_BOT_TOKEN=your_bot_token
@@ -36,7 +36,7 @@ export SLACK_CHANNEL_ID=your_channel_id`
 
 1.  Start the Flask web application:
 
-shCopy code
+Copy code
 
 `python app.py`
 
@@ -67,7 +67,7 @@ Deployment
 
 To deploy this Flask web application to a production server, you can use a WSGI server like Gunicorn or uWSGI. Here's an example command to start the application with Gunicorn:
 
-shCopy code
+Copy code
 
 `gunicorn app:app`
 
